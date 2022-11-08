@@ -27,7 +27,7 @@ from pathlib import Path
 from datasets import load_dataset
 
 from check_config_docstrings import get_checkpoint_from_config_class
-from huggingface_hub import Repository, create_commit, create_repo, upload_folder
+from huggingface_hub import Repository, create_repo, upload_folder
 from transformers import (
     CONFIG_MAPPING,
     FEATURE_EXTRACTOR_MAPPING,
